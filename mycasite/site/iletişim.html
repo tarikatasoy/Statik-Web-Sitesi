@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ <link rel="SHORTCUT ICON" href="img/logo_16x16.ico">
+    <title>MYCA Mühendislik</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+		 <a href="index.html"><img class="loggo" src="img/loggo.png"> </a>
+        <a class="navbar-brand" href="index.html"><b>MYCA</b> Mühendislik</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+			 <li class="nav-item">
+              <a class="nav-link" href="index.html">Ana Sayfa</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="projeler.html">Projeler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="referanslar.html">Referanslar</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="iletişim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">İletişim
+      
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li class="breadcrumb-item active">İletişim</li>
+      </ol>
+
+      <!-- Content Row -->
+      <div class="row">
+        <!-- Map Column -->
+        <div class="col-lg-8 mb-4">
+          <!-- Embedded Google Map -->
+          <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4319.964002222156!2d32.61625705648037!3d40.038016292856184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d333fcabdd21af%3A0x7ca84e5a67dedccc!2sSaray+Mahallesi%2C+3.+Cd.+No%3A46%2C+06980+Kazan%2FAnkara!5e0!3m2!1str!2str!4v1524512133284"></iframe>
+        </div>
+        <!-- Contact Details Column -->
+        <div class="col-lg-4 mb-4">
+          <h3>Adres</h3>
+          <p>
+            Keresteciler Sanayi Sitesi 3.cadde No:46 06980
+            <br>Kazan/Ankara
+            <br>
+          </p>
+          <p>
+            Telefon: +90(544) 409 1909 <br>
+			  Telefon: +90(532) 151 9558
+			
+			    
+          </p>
+          <p>
+      
+            <a href="mailto:info@myca.com.tr">E-Mail: info@myca.com.tr
+            </a>
+          </p>
+</div>
+      </div>
+      <!-- /.row -->
+
+      <!-- Contact Form -->
+      <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+      <div class="row">
+        <div class="col-lg-8 mb-4">
+          <h3>Bize Mesaj Gönder</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Ad-Soyad:</label>
+                <input type="text" class="form-control" id="name" required data-validation-required-message="Lütfen isminizi giriniz.">
+                <p class="help-block"></p>
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Telefon Numarası:</label>
+                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Lütfen telefon numaranızı giriniz.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Email Adresi:</label>
+                <input type="email" class="form-control" id="email" required data-validation-required-message="Lütfen mail adresinizi giriniz.">
+              </div>
+            </div>
+            <div class="control-group form-group">
+              <div class="controls">
+                <label>Mesajınız:</label>
+                <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Lütfen mesajınızı giriniz." maxlength="999" style="resize:none"></textarea>
+              </div>
+            </div>
+            <div id="success"></div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary" id="sendMessageButton">Gönder</button>
+          </form>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; CİN Studio 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+  </body>
+
+</html>
